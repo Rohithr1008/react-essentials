@@ -31,9 +31,32 @@ pre { overflow:auto; background:var(--card); border:1px solid var(--border); pad
 /* Accessible Component Demo */
 .a11y-btn { padding:10px 18px; background:var(--accent); color:#fff; border:none; border-radius:8px; font-weight:bold; cursor:pointer; }
 .a11y-btn:focus-visible { outline:3px solid #f59e0b; outline-offset:2px; }
+
+/* ADHD Accessibility Additions */
+html.force-dark { color-scheme: dark; --bg:#0d1420; --text:#dbe4ef; --card:#151f30; --border:#28374d; }
+body.font-sm { font-size: 14px !important; }
+body.font-lg { font-size: 18px !important; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { position: fixed; left: 8px; top: 8px; z-index: 9999; background: #fff; color: #1d4f91; padding: 8px 14px; border-radius: 6px; font-weight: 700; }
+.toolbar-adhd { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; align-items: center; background: rgba(0,0,0,0.05); padding: 8px 12px; border-radius: 8px; }
+.toolbar-adhd button { padding: 4px 10px; border-radius: 6px; border: 1px solid #cbd5e0; background: #fff; cursor: pointer; font-weight: 600; }
+body.focus-mode #progressBar, body.focus-mode .partnav, body.focus-mode footer { display: none !important; }
+.est-time { font-size: 0.82rem; background: #e2e8f0; color: #2d3748; padding: 2px 8px; border-radius: 10px; font-weight: normal; margin-left: 8px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
 </style>
 </head>
-<body>
+<body id="mainContent">
+
+<a class="skip-link" href="#mainContent">Skip to content</a>
+<div class="toolbar-adhd">
+  <span>📐 Text Size:</span>
+  <button onclick="document.body.classList.remove('font-sm','font-lg')">Default</button>
+  <button onclick="document.body.classList.add('font-sm')">A-</button>
+  <button onclick="document.body.classList.add('font-lg')">A+</button>
+  <button onclick="document.body.classList.toggle('focus-mode')">🧘 Toggle Focus Mode</button>
+</div>
+
 
 <div class="partnav">
   <strong>React Essentials:</strong>
