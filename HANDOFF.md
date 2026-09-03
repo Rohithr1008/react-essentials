@@ -1,6 +1,6 @@
 # Handoff — React Essentials
 
-> **Status:** STUB / planned — no study apps yet.
+> **Status:** BUILT & VERIFIED — Parts 1–3 live with interactive study apps, plain markdown, interactive markdown, and course hub.
 
 ---
 
@@ -8,52 +8,31 @@
 
 | | |
 |---|---|
-| **Status** | STUB — build later |
-| **Parts** | 3 (planned) |
-| **Repo** | https://github.com/Rohithr1008/react-essentials |
+| **Status** | BUILT ✅ |
+| **Parts** | 3 Parts (Complete) |
 | **Path** | `C:\Users\rohit\.cline\data\workspaces\chat\react-essentials` |
 
-Coordinate with [`../automation-tester-path/ROADMAP.md`](../automation-tester-path/ROADMAP.md) Phase C.
+---
+
+## 2. Deliverables Summary
+
+| Artifact | Role | Status |
+|---|---|---|
+| [`index.html`](index.html) | Hub page with localStorage progress bar & dark mode | Built ✅ |
+| [`React_essentials_part1_study_app.html`](React_essentials_part1_study_app.html) | Part 1 Study App — Components & JSX | Built ✅ |
+| [`React_essentials_part1_interactive.md`](React_essentials_part1_interactive.md) | Part 1 Interactive Markdown | Built ✅ |
+| [`React_essentials_part1_with_examples.md`](React_essentials_part1_with_examples.md) | Part 1 Plain Markdown | Built ✅ |
+| [`React_essentials_part2_study_app.html`](React_essentials_part2_study_app.html) | Part 2 Study App — State & Hooks | Built ✅ |
+| [`React_essentials_part2_interactive.md`](React_essentials_part2_interactive.md) | Part 2 Interactive Markdown | Built ✅ |
+| [`React_essentials_part2_with_examples.md`](React_essentials_part2_with_examples.md) | Part 2 Plain Markdown | Built ✅ |
+| [`React_essentials_part3_study_app.html`](React_essentials_part3_study_app.html) | Part 3 Study App — Styling & Testing | Built ✅ |
+| [`React_essentials_part3_interactive.md`](React_essentials_part3_interactive.md) | Part 3 Interactive Markdown | Built ✅ |
+| [`React_essentials_part3_with_examples.md`](React_essentials_part3_with_examples.md) | Part 3 Plain Markdown | Built ✅ |
 
 ---
 
-## 2. Framework choice
+## 3. Curriculum Breakdown
 
-**React** is the default Phase C UI kit — broader hiring surface for develop+test roles.
-
-**Vue:** optional future sibling (`vue-essentials` stub). Do not block React build on Vue parity.
-
----
-
-## 3. Planned parts
-
-| Part | Focus |
-|---|---|
-| 1 | JSX, function components, props, children, lists/keys |
-| 2 | `useState`, `useEffect` (light), forms, fetching patterns |
-| 3 | CSS Modules, Tailwind overview, component a11y, testing hooks (link JE/Playwright, don’t re-teach) |
-
-**Pedagogy (when built):** three editions per part — match JE / typescript-develop-test pattern.
-
----
-
-## 4. Path links
-
-| | |
-|---|---|
-| Umbrella | [`../automation-tester-path/`](../automation-tester-path/) |
-| Phase | **C** step 9 |
-| Previous | [`../typescript-develop-test/`](../typescript-develop-test/) · [`../css-advanced/`](../css-advanced/) |
-| Optional next | [`../figma-to-dev/`](../figma-to-dev/) |
-
----
-
-## 5. Do not (yet)
-
-- Ship a full Next.js / Redux curriculum  
-- Re-teach TypeScript or Playwright from scratch  
-- Build Vue edition in the same sprint unless explicitly requested  
-
----
-
-*STUB — full build follows ROADMAP.md.*
+1. **Part 1: Components & JSX** — JSX syntax rules, fragments, props, children composition, list `.map()` and `key` props.
+2. **Part 2: State & Hooks** — `useState`, controlled inputs, `useEffect` fetching & cleanup habits, lifting state up.
+3. **Part 3: Styling & Testing** — CSS Modules, Tailwind overview, component accessibility (a11y), and Playwright testing strategy.

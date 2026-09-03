@@ -1,40 +1,32 @@
 # START HERE — React Essentials
 
-**Status:** STUB — curriculum not built yet.
+**Status:** BUILT ✅
 
-Calm order once content ships.
-
----
-
-## Before you start (when built)
-
-1. Finish **Phase B** — especially [TypeScript Develop + Test](../typescript-develop-test/).  
-2. Skim [CSS Advanced](../css-advanced/) if you want styling context first (optional parallel).  
-3. Open this kit’s hub or Part 1 study app.
+Welcome to **React Essentials** — Part 9 of the Automation Tester Path (Phase C).
 
 ---
 
-## Planned study order
+## Quick Start
 
-1. **Part 1** — Components & JSX  
-2. **Part 2** — State & hooks (light)  
-3. **Part 3** — Styling in React  
-
-**Plan:** [`ROADMAP.md`](ROADMAP.md)
-
----
-
-## Vue?
-
-This path defaults to **React** (job market). A future `vue-essentials` stub is possible — not planned for this sprint.
+1. Open [`index.html`](index.html) in your browser to view the course hub.
+2. Select your preferred study format for each part:
+   - **Study App (`*_study_app.html`)**: Interactive offline app with live demos, quizzes, and progress persistence.
+   - **Interactive Markdown (`*_interactive.md`)**: VS Code preview edition with embedded quizzes.
+   - **Plain Markdown (`*_with_examples.md`)**: Distraction-free print/PDF edition.
 
 ---
 
-## Stuck?
+## Study Order
 
-- Path map: [`../automation-tester-path/README.md`](../automation-tester-path/README.md)  
-- Build status: [`HANDOFF.md`](HANDOFF.md)
+1. **Part 1 — Components & JSX**: JSX rules, fragments, conditional rendering, props, children composition, and list reconciliation keys.
+2. **Part 2 — State & Hooks**: `useState`, controlled inputs, `useEffect` fetching & cleanup habits, and lifting state.
+3. **Part 3 — Styling & Testing**: CSS Modules, Tailwind overview, component accessibility, and Playwright component test strategies.
 
 ---
 
-*STUB — build from ROADMAP + HANDOFF later.*
+## Navigation & Resources
+
+- Path map: [`../automation-tester-path/README.md`](../automation-tester-path/README.md)
+- Status & Handoff details: [`HANDOFF.md`](HANDOFF.md)
+- Previous Kit: [`../css-advanced/`](../css-advanced/)
+- Next Kit: [`../figma-to-dev/`](../figma-to-dev/)
